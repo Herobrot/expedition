@@ -82,6 +82,7 @@ dependencies {
     //Test
     //runtimeOnly("com.herobrot.scalingdifficulty:scalingdifficulty:${scalingdifficulty_version}")
     //runtimeOnly("com.herobrot.levelplate:levelplate:${levelplate_version}")
+
 }
 tasks.named('processResources', ProcessResources) {
     var replaceProperties = [

@@ -1,13 +1,10 @@
 {
-  "itemGroup.expedition": "Example Mod Tab",
-  "block.expedition.example_block": "Example Block",
-  "item.expedition.example_item": "Example Item",
+  "text.autoconfig.expedition.title": "Expedition Config",
+  "text.autoconfig.expedition.option.titleSize": "Title Size",
+  "text.autoconfig.expedition.option.titleX": "Title X",
+  "text.autoconfig.expedition.option.titleY": "Title Y",
+  "text.autoconfig.expedition.option.excludedBiomes": "Excluded Biomes",
+  "text.autoconfig.expedition.option.excludedBiomes.@Tooltip": "Example: minecraft:plains",
 
-  "expedition.configuration.title": "Expedition Titles Configs",
-  "expedition.configuration.section.expedition.common.toml": "Expedition Titles Configs",
-  "expedition.configuration.section.expedition.common.toml.title": "Expedition Titles Configs",
-  "expedition.configuration.items": "Item List",
-  "expedition.configuration.logDirtBlock": "Log Dirt Block",
-  "expedition.configuration.magicNumberIntroduction": "Magic Number Text",
-  "expedition.configuration.magicNumber": "Magic Number"
+  "hud.expedition.subtitle": "Lv. %s"
 }

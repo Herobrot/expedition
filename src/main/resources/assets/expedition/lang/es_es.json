@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.expedition.title": "Configuración de Expedition",
+  "text.autoconfig.expedition.option.titleSize": "Tamaño del título",
+  "text.autoconfig.expedition.option.titleX": "Título en X",
+  "text.autoconfig.expedition.option.titleY": "Título en Y",
+  "text.autoconfig.expedition.option.excludedBiomes": "Biomas excluídos",
+  "text.autoconfig.expedition.option.excludedBiomes.@Tooltip": "Ejemplo: minecraft:plains",
+
+  "hud.expedition.subtitle": "Lv. %s"
+}
