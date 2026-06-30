@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="examplemod.png"
+credits=""
+authors="Herobrot"
+description='''
+An addon for the mod Levelplate that adds titles when traveling through biomes. Includes the average level of the mobs (Scaling Difficulty)
+'''
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies."${mod_id}"]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies."${mod_id}"]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies."${mod_id}"]]
+modId="cloth_config"
+type="required"
+versionRange="[15.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies."${mod_id}"]]
+modId="levelplate"
+type="optional"
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies."${mod_id}"]]
+modId="scalingdifficulty"
+type="optional"
+versionRange="[1.0.1,)"
+ordering="AFTER"
+side="BOTH"

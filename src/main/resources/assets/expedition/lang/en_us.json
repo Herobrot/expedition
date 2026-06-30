@@ -1,0 +1,13 @@
+{
+  "itemGroup.expedition": "Example Mod Tab",
+  "block.expedition.example_block": "Example Block",
+  "item.expedition.example_item": "Example Item",
+
+  "expedition.configuration.title": "Expedition Titles Configs",
+  "expedition.configuration.section.expedition.common.toml": "Expedition Titles Configs",
+  "expedition.configuration.section.expedition.common.toml.title": "Expedition Titles Configs",
+  "expedition.configuration.items": "Item List",
+  "expedition.configuration.logDirtBlock": "Log Dirt Block",
+  "expedition.configuration.magicNumberIntroduction": "Magic Number Text",
+  "expedition.configuration.magicNumber": "Magic Number"
+}
