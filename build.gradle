@@ -168,12 +168,3 @@ publishMods {
         additionalFiles.from(tasks.named("sourcesJar"))
     }
 }
-
-tasks.register("publishMod") {
-    group = "publishing"
-    description = "Construye el mod y lo distribuye de forma automatizada."
-    dependsOn build
-    if (System.getenv("GITHUB_TOKEN") != null) finalizedBy tasks.named("publishGithub")
-    if (System.getenv("CURSEFORGE_TOKEN") != null) finalizedBy tasks.named("publishCurseforge")
-    if (System.getenv("MODRINTH_TOKEN") != null) finalizedBy tasks.named("publishModrinth")
-}
