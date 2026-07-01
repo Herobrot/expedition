@@ -1,9 +1,3 @@
-Agregar el readme
-
-crear los proyectos en modrinth y curseforge
-
-quitar labels en el repositorio
-
 # Expedition
 Expedition is a mod and a **port** of [TravelerZ](https://github.com/Globox1997/TravelerZ) from **Globox** that adds titles when traveling on biomes.
 This mod is designed to use along [Levelplate](https://github.com/Herobrot/levelplate) and [ScalingDifficulty](https://github.com/Herobrot/scalingdifficulty). But you can use the mod without using the others ones.
