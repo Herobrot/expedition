@@ -159,6 +159,7 @@ publishMods {
         projectId = modrinth_id
         minecraftVersions.add(minecraft_version)
         requires("cloth-config")
+        environment=CLIENT_AND_SERVER
     }
 
     github {
